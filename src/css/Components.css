@@ -1,0 +1,785 @@
+/*****************************************************/
+/****************** General Styles *******************/
+/*****************************************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    background: white;
+    font-family: poppins;
+    text-align: left;
+    overflow-x: hidden;
+}
+  
+ol, ul {
+    padding-left: 0 !important;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+li {
+    list-style: none;
+}
+
+
+
+
+/*****************************************************/
+/****************** Formation Box ********************/
+/*****************************************************/
+
+.formation-box {
+  background: white;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(151, 146, 146, 0.2), 0 6px 20px 0 rgba(185, 178, 178, 0.19);
+  border-radius: 6px;
+  margin-top: 6%;
+  margin: 4% auto !important;
+  text-align: start;
+  width: 100%;
+}
+
+.formation-left {
+  flex-basis: 25%;
+}
+
+.formation-left img{
+  height: auto;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.formation-right {
+  flex-basis: 70%;
+  padding: 26px 40px;
+  background: #fff;
+  color: #353535;
+  border-radius: 6px;
+}
+
+.formation-right .title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.formation-right .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formation-description p{
+  margin-bottom: 20px;
+}
+
+
+.author p{
+  color: #575757;
+  font-weight: bold;
+}
+
+
+.author img {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -2px;
+}
+
+.bi-star{
+  color: #F78401;
+  font-size: 22px;
+}
+
+.bi-clock-history {
+  color: #F5D347;
+  font-size: 22px;
+}
+
+.bi-book {
+  color: #1FAE90;
+  font-size: 22px ;
+}
+
+.bottom .icons li{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*****************************************************/
+/******************* Course Card *********************/
+/*****************************************************/
+
+#course_card{
+    width: 22rem;
+    border-radius: 12px !important;
+    margin: 3%;
+    text-align: start;
+    position: absolute;
+    top: 60px;
+    right: 80px;
+}
+
+
+#card-price {
+    margin-top: 2vh;
+    color: #707070;
+}
+
+#course_card .btn-info {
+    background-color: #4FD4B7 !important;
+    border-color: #4FD4B7 !important;
+    color: #ffffff;
+    font-family: poppins;
+    width: 100%;
+    margin-bottom: 4vh;
+}
+
+#card-title {
+    font-weight: 700;
+    color: #707070;
+    margin-bottom: 4vh;
+}
+
+
+.formation-header {
+    background-color: #F2F1EF;
+    width: 100vw;
+    padding: 4%;
+    font-family: poppins;
+}
+
+.formation-header .container {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.container .title_f{
+    font-size: 30px;
+    color: #101010;
+    width: 70%;
+}
+
+.container .brief_d {
+    font-size: 14px;
+    color: #707070;
+    font-weight: 200;
+    width: 70%;
+}
+
+.rating_f {
+    display: flex;
+    align-items: baseline;
+}
+
+.rating_f i{
+    text-decoration: none;
+    font-weight: 600;
+    font-style: normal;
+    color: #101010;
+}
+
+.rating_f .bi-star{
+    color: #F78401;
+}
+
+.rating_f p{
+    font-style: normal;
+    color: #101010;
+    font-size: 11px;
+}
+
+.f_button .btn {
+    margin-right: 0.5%;
+}
+.f_button .bi-share-fill, .bi-heart{
+    color: #ffffff;
+    font-style: normal;
+}
+
+
+
+
+/*****************************************************/
+/************** Formation Description ****************/
+/*****************************************************/
+
+.formation_desc {
+    width: 50%;
+    margin: 4%;
+}
+
+.formation_desc .title{
+    font-family: poppins;
+    font-weight: 500;
+    color: #101010;
+    font-size: 40px;
+    margin-bottom: 6vh;
+}
+
+.formation_desc .desc{
+    font-family: poppins;
+    font-weight: 200;
+    color:#707070;
+    font-size: 16px;
+}
+
+
+
+
+
+
+/*****************************************************/
+/******************** Accordion **********************/
+/*****************************************************/
+
+.Accordion {
+    margin: 8% 4%;
+}
+
+.Accordion .title{
+    font-family: poppins;
+    font-weight: 500;
+    color: #101010;
+    font-size: 40px;
+    margin-bottom: 6vh;
+}
+
+.accordion-item {
+    width: 50%;
+    margin: 0.3% 0%;
+}
+
+.bi-play-fill {
+    color: #329AFD;
+}
+  
+  
+li a {
+    color: rgb(58, 110, 112);
+}
+  
+li a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*****************************************************/
+/******************** Instructors ********************/
+/*****************************************************/
+
+.Instructors {
+    width: 50%;
+    margin: 4%;
+}
+
+.Instructors .author_img img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1vw;
+}
+
+.Instructors .abt_author p{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 600;
+    color: #707070;
+    margin-bottom: 0rem !important;
+}
+
+.Instructors .author_desc {
+    color: #707070;
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 4vh;
+}
+
+
+
+
+
+
+
+
+/*****************************************************/
+/********************* FeedBack **********************/
+/*****************************************************/
+
+.feedback {
+    margin: 10% 4%;
+}
+
+.feedback .title{
+    font-family: poppins;
+    font-weight: 500;
+    color: #101010;
+    font-size: 28px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.note p {
+    font-family: poppins;
+    font-size: 6rem;
+    color: #707070;
+    margin-right: 3vw;
+}
+
+.star_rating p{
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #707070;
+}
+
+.star_rating .bi-star-fill{
+    color: #F78401;
+    font-size: 25px;
+}
+
+
+#cm_input input{
+    width: 40%;
+    margin-right: 10px;
+}
+
+#cm_input .button {
+    background-color: #329AFD; 
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+/*****************************************************/
+/********************* Comments **********************/
+/*****************************************************/
+
+.comments {
+    width: 70%;
+    padding: 1% 4%;
+}
+
+.author_C {
+    align-items: end;
+}
+
+.author_C img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -2px;
+}
+
+.author_C p {
+    font-weight: 700;
+}
+
+.comment p{
+    font-family: poppins;
+    font-weight: lighter;
+    margin-top: 2vh;
+    margin-bottom: 4Vh;
+}
+.cmnt-hr {
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+/*****************************************************/
+/***************** Notification Card *****************/
+/*****************************************************/
+
+.notCard {
+  box-shadow: 0 4px 8px 0 rgba(151, 146, 146, 0.2), 0 6px 20px 0 rgba(185, 178, 178, 0.19);
+  border-radius: 6px;
+  margin-top: 3%;
+  padding: 20px 30px;
+  min-height: 30px;
+  width: 80%;
+  margin: 1% auto;
+  text-align: left;
+}
+
+
+
+
+
+
+
+/*****************************************************/
+/******************** Profile Card *******************/
+/*****************************************************/
+
+#profileCard {
+    box-shadow: 0 4px 8px 0 rgba(151, 146, 146, 0.2), 0 6px 20px 0 rgba(185, 178, 178, 0.19);
+    border-radius: 6px;
+    margin-top: 3%;
+    min-height: 30px;
+    height: auto;
+    width: 80%;
+    margin: 4% auto;
+    align-items: center;
+    text-align: left;
+}
+
+.pers-inf{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 50px;
+}
+
+.profile-pic img {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.inputs input {
+    width: 24rem !important;
+}
+
+.inputs {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.prf_input{
+    margin: 10px !important;
+}
+
+#update_btn{
+    padding: 1% 10% !important;
+    margin: 3% 40% !important;
+}
+
+
+
+
+
+
+
+/*****************************************************/
+/********************** Contact **********************/
+/*****************************************************/
+
+.contact-box {
+    background: white;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(151, 146, 146, 0.2), 0 6px 20px 0 rgba(185, 178, 178, 0.19);
+    border-radius: 6px;
+    width: 100%;
+    margin: 4% auto;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 90px 80px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 90px 40px;
+    background: #2AC5A5;
+    color: rgb(245, 255, 252);
+    border-radius: 6px;
+}
+
+.contact-right h2 {
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family: poppins;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.contact-right .contact-inf {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contact_form .form-control{
+    margin-top: 10px;
+}
+
+.input-row {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: poppins;
+    color: #707070;
+}
+
+.contact-left button {
+    margin-top: 3vh;
+}
+
+.contact-inf a {
+    color: #fff;
+    text-decoration: none;
+}
+.contact-inf a:hover {
+    color: #a9eee0;
+}
+
+.contact-inf .fas {
+    color: rgb(245, 255, 252);
+    font-size: 24px;
+    padding: 10px;
+}
+
+.contact-right .social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-right .social-media .fa {
+    color: rgb(245, 255, 252);
+    font-size: 24px;
+    padding: 20px;
+}
+.contact-right .social-media .fa:hover {
+    color: #a9eee0;
+}
+
+
+
+
+
+
+
+/*****************************************************/
+/******************* Add Formation *******************/
+/*****************************************************/
+
+.container_AF {
+    padding: 2% 4%;
+    margin: 0 auto;
+    margin-bottom: 4vh;
+}
+
+.container_AF .card{
+    padding: 4%;
+    width: 80%;
+}
+
+.container_AF .card-input input{
+    margin: 4% auto;
+}
+
+
+/*****************************************************/
+/****************** Formation List *******************/
+/*****************************************************/
+
+.container_FL {
+    padding: 4%;
+    margin: 0 auto;
+}
+.cadre-pic img{
+    width: 10rem;
+}
+
+.container_FL .dash-btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/*****************************************************/
+/********************** Footer ***********************/
+/*****************************************************/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    }
+    
+    body {
+        font-family: poppins;
+        margin: 0;
+        display: grid;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    h1, h2 {
+        color: #969696;
+    }
+
+    hr {
+        border: hidden;
+        border-top: 1px solid rgb(196, 191, 191);
+    }
+
+    .fa {
+        color: #bebebe;
+        font-size: 20px;
+    }
+
+    header p {
+        padding: 50px;
+        text-align: center;
+        color: #bebebe;
+        text-transform: uppercase;
+        font-size: 65px;
+        font-weight: 700;
+    }
+    
+    .footer {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 50px;
+        margin-top: 8vh;
+        padding-bottom: 10px;
+        padding-left: 6rem;
+        color: #999;
+        background-color: #353535;
+    }
+    
+    .footer > * {
+        flex:  1 100%;
+    }
+    
+    .l-footer {
+        margin-right: 1.25em;
+        margin-bottom: 2em;
+    }
+    
+    h2 {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+    .footer ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .footer li {
+        line-height: 2em;
+    }
+    
+    .footer a {
+        text-decoration: none;
+    }
+    
+    .r-footer {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .r-footer > * {
+        flex: 1 50%;
+        margin-right: 1.25em;
+    }
+    
+    .box a {
+        color: #999;
+    }
+
+    .box .fa {
+        margin-right: 20px;
+    }
+    
+    .h-box {
+        column-count: 1;
+        column-gap: 1.25em;
+    }
+    
+    .b-footer {
+        text-align: center;
+        color: #999;
+        /* padding-top: 50px; */
+    }
+
+    .b-footer a {
+        text-decoration: none;
+        color: #999;
+    }
+    
+    .l-footer p {
+        padding-right: 20%;
+        color: #999;
+    }   
+    
+    @media screen and (min-width: 600px) {
+        .r-footer > * {
+        flex: 1;
+    }
+    
+    .features {
+        flex-grow: auto;
+    }
+    
+    .l-footer {
+        flex: 1 0px;
+    }
+    
+    .r-footer {
+        flex: 2 0px;
+    }
+}
+    

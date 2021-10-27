@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    font-family: poppins;
+}
+
+ol, ul {
+    padding-left: 0 !important;
+}
+
+Link {
+    text-decoration: none;
+}
+
+
+.top-nav .btn{
+    color: #575757 !important;
+    background-color: transparent !important;
+    border-style: none !important;
+    border-bottom-style: solid !important;
+    border-width: 4px !important;
+    border-color: transparent;
+    border-radius: 0!important;
+    font-weight: bold !important;
+    margin-top: 30px;
+    width: 100%;
+}
+.top-nav Link:hover {
+    border-color: #1189FF !important;
+    color: #1189FF !important;
+}
+.top-nav .active-link{
+    border-color: #1189FF !important;
+    color: #1189FF !important;
+    width: 100%;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+
+.profile-container {
+    width: 100vw !important;
+    margin: 50px auto;
+}
+
+.profile-container h1 {
+    font-family:poppins;
+    color: #575757;
+    margin-bottom: 40px;
+}
+
+.top {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top-nav {
+    display: flex;
+}
+.top-nav button{
+    margin-right: 10px;
+    background-color: none !important;
+}
+
+.nav-hr {
+    margin-top: 0px;
+}
+
+
+
+.prf-body {
+    padding: 4%;
+}
+
+.prf-body h1{
+    font-size: 24px;
+    text-align: left;
+    margin-left: 4%;
+}
